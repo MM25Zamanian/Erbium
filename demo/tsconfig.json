@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "rootDir": ".",
+    "outDir": ".",
+    "tsBuildInfoFile": ".tsbuildinfo"
+  },
+  "include": ["**/*.ts"],
+  "references": [{"path": "../packages/iconsax"}],
+  "exclude": ["*.d.ts", "node_modules"]
+}
