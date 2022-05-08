@@ -1,14 +1,17 @@
 # The mmzmk Library
 
 Main branch:
-[![Build](https://github.com/MM25Zamanian/mmzmk/actions/workflows/build.yaml/badge.svg?branch=main)](https://github.com/MM25Zamanian/mmzmk/actions/workflows/build.yaml)
-[![Lint](https://github.com/MM25Zamanian/mmzmk/actions/workflows/lint.yaml/badge.svg?branch=main)](https://github.com/MM25Zamanian/mmzmk/actions/workflows/lint.yaml)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/MM25Zamanian/mmzmk/Build/main?logo=github&style=for-the-badge)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/MM25Zamanian/mmzmk/Lint/main?logo=github&style=for-the-badge)
 
 Next branch:
-[![Build](https://github.com/MM25Zamanian/mmzmk/actions/workflows/build.yaml/badge.svg?branch=next)](https://github.com/MM25Zamanian/mmzmk/actions/workflows/build.yaml)
-[![Lint](https://github.com/MM25Zamanian/mmzmk/actions/workflows/lint.yaml/badge.svg?branch=next)](https://github.com/MM25Zamanian/mmzmk/actions/workflows/lint.yaml)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/MM25Zamanian/mmzmk/Build/next?logo=github&style=for-the-badge)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/MM25Zamanian/mmzmk/Lint/next?logo=github&style=for-the-badge)
+
+![GitHub language count](https://img.shields.io/github/languages/count/MM25Zamanian/mmzmk?style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/MM25Zamanian/mmzmk?style=for-the-badge)
 
 ## Packages
 | Package | Status
 | ----------| ------
-| [`IconSax`](https://github.com/MM25Zamanian/mmzmk/tree/next/packages/iconsax) | [![npm version](https://badge.fury.io/js/@mmzmk%2Ficonsax.svg)](https://badge.fury.io/js/@mmzmk%2Ficonsax)
+| [`IconSax`](https://github.com/MM25Zamanian/mmzmk/tree/next/packages/iconsax) | ![npm (scoped)](https://img.shields.io/npm/v/@mmzmk/iconsax?logo=npm&style=for-the-badge)
