@@ -18,7 +18,10 @@ declare global {
 
 /**
  * A small and super fast package for iconsax web components
- * <mmzmk-iconsax></mmzmk-iconsax>
+ * @example
+ * ```html
+ * <mmzmk-iconsax name="home"></mmzmk-iconsax>
+ * ```
  */
 @customElement('mmzmk-iconsax')
 export class mmzmkIconSax extends LitElement {
