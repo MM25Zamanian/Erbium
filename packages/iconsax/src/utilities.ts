@@ -1,7 +1,11 @@
-export const getUrl = (name: iconsaxNames, category: iconsaxCategories): string =>
-  getNamedUrl(name, category);
+export const getUrl = (name: iconsaxNames, category: iconsaxCategories): string => {
+  if (name.includes('Crypto/')) {
+    return getNamedUrl(name.slice(name.indexOf('/') + 1, name.length), 'Crypto/' + category);
+  }
+  return getNamedUrl(name, category);
+};
 
-export const getNamedUrl = (iconName: iconsaxNames, iconCategory: iconsaxCategories): string =>
+export const getNamedUrl = (iconName: string, iconCategory: string): string =>
   `https://cdn.jsdelivr.net/gh/MM25Zamanian/mmzmk/assets/iconsax-svg/${iconCategory}/${iconName}.svg`;
 
 export type iconsaxCategories = 'bold' | 'broken' | 'bulk' | 'linear' | 'outline' | 'twotone';
