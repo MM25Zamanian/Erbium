@@ -31,8 +31,8 @@
     "serve:dev": "web-dev-server --config dev-server.mjs",
     "watch": "npm-run-all --parallel watch:* serve:dev",
     "watch:ts": "yarn build:ts --watch --preserveWatchOutput",
-    "ver-minor": "lerna version minor --no-push && git push && git push --tags",
-    "ver-patch": "lerna version patch --no-push && git push && git push --tags",
+    "ver-minor": "yarn build ; lerna version minor --no-push && git push && git push --tags",
+    "ver-patch": "yarn build ; lerna version patch --no-push && git push && git push --tags",
     "publish": "lerna publish from-package"
   },
   "devDependencies": {

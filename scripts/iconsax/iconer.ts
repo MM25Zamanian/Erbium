@@ -18,7 +18,7 @@ const start = async (): Promise<string[]> => {
         ).filter((icon) => icon.includes('.svg'));
 
         for (const icon of icons) {
-          list.push(icon);
+          list.push(category + '/' + icon);
           // console.log(`${cryptoIconsCategorie}: ${icon} - ${category}`);
         }
       });
@@ -33,9 +33,9 @@ const start = async (): Promise<string[]> => {
       }
     }
   }
-  console.log(list);
-  list = list.filter((item, index) => list.includes(item, index));
-  console.log(list);
+  list = list
+      .filter((item, index) => list.includes(item, index))
+      .map((item) => item.replace('.svg', ''));
   writeFile('./list.txt', list.join('\n'));
   return list;
 };
