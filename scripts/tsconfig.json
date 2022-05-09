@@ -1,0 +1,13 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "composite": true,
+    "tsBuildInfoFile": ".tsbuildinfo",
+    "rootDir": ".",
+    "outDir": "."
+  },
+  // files, include and exclude from the inheriting config are always overwritten.
+  "include": ["iconsax/*"],
+  "exclude": []
+}
