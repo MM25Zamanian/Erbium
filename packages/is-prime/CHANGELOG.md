@@ -5,12 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [0.4.0](https://github.com/MM25Zamanian/mmzmk/compare/v0.3.1...v0.4.0) (2022-05-09)
 
-**Note:** Version bump only for package @mmzmk/demo
 
+### Features
 
-
-
-
-# 0.3.0 (2022-05-08)
-
-**Note:** Version bump only for package @mmzmk/demo
+* **is-prime:** init ([9373134](https://github.com/MM25Zamanian/mmzmk/commit/9373134f04b46968a51011bb7c4c5b57d609a0d4))

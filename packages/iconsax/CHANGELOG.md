@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/MM25Zamanian/mmzmk/compare/v0.3.1...v0.4.0) (2022-05-09)
+
+
+### Features
+
+* **iconsax:** add Crypto to icon name list type ([4f994a5](https://github.com/MM25Zamanian/mmzmk/commit/4f994a526659ab7da03518a8d665d8a9598f3a7a))
+
+
+
+
+
 # 0.3.0 (2022-05-08)
 
 

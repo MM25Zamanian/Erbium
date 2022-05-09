@@ -1,6 +1,6 @@
 {
   "name": "@mmzmk/demo",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "main": "index.js",
   "author": "MohammadMahdi Zamanian <mm25zamanian@gmail.com> (https://mm25zamanian.ir)",
   "type": "module",
