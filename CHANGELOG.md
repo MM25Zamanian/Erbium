@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/MM25Zamanian/mmzmk/compare/v0.7.4...v0.8.0) (2022-05-10)
+
+
+### Bug Fixes
+
+* **iconsax:** fetch url version ([1a33b9e](https://github.com/MM25Zamanian/mmzmk/commit/1a33b9e78182cf681f082ed7eeaa707d1e8039dc))
+
+
+
+
+
 # [0.7.0](https://github.com/MM25Zamanian/mmzmk/compare/v0.6.0...v0.7.0) (2022-05-09)
 
 **Note:** Version bump only for package mmzmk
