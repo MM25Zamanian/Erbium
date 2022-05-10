@@ -1,4 +1,4 @@
 <svg viewBox="0 0 24 24" fill="none">
-<path d="M5 10.52V9H19V2H5L19 16H5V15.22" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-<path d="M12 16V22L5 16H12Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M5 10.52V9H19V2H5L19 16H5V15.22" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M12 16V22L5 16H12Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
 </svg>
