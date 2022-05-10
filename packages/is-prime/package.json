@@ -1,0 +1,36 @@
+{
+  "name": "@mmzmk/is-prime",
+  "version": "0.7.0",
+  "description": "A small and super fast package for check prime numbers",
+  "keywords": [
+    "prime",
+    "prime number",
+    "tiny",
+    "typescript",
+    "esm",
+    "mmzmk"
+  ],
+  "main": "is-prime.js",
+  "type": "module",
+  "types": "is-prime.d.ts",
+  "author": "MohammadMahdi Zamanian <mm25zamanian@gmail.com> (https://mm25zamanian.ir)",
+  "license": "MIT",
+  "files": [
+    "**/*.{d.ts.map,d.ts,js.map,js,html,md}"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MM25Zamanian/mmzmk.git",
+    "directory": "packages/is-prime"
+  },
+  "homepage": "https://github.com/MM25Zamanian/mmzmk/tree/main/packages/is-prime#readme",
+  "bugs": {
+    "url": "https://github.com/MM25Zamanian/mmzmk/issues"
+  },
+  "dependencies": {
+    "tslib": "^2.3.1"
+  }
+}
