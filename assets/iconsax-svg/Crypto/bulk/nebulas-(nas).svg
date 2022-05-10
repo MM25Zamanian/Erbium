@@ -1,5 +1,5 @@
 <svg viewBox="0 0 24 24" fill="none">
-<path opacity="0.58" d="M24 0H0V24H24V0Z" fill="white"></path>
+<path opacity="0.58" d="M24 0H0V24H24V0Z" fill="currentColor"></path>
 <path opacity="0.4" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" fill="currentColor"></path>
 <path d="M14.5004 10.7499L14.0904 10.9599H14.0804L9.40039 13.3799L10.4704 10.0399L13.5504 8.6499L14.5004 10.7499Z" fill="currentColor"></path>
 <path d="M13.5507 8.65L10.4707 10.04L12.0007 5.25L13.5507 8.65Z" fill="currentColor"></path>

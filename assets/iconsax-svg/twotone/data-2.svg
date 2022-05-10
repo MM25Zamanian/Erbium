@@ -4,7 +4,7 @@
 <path d="M20.8 14.5H17.2C16.54 14.5 16 13.96 16 13.3V11.7C16 11.04 16.54 10.5 17.2 10.5H20.8C21.46 10.5 22 11.04 22 11.7V13.3C22 13.96 21.46 14.5 20.8 14.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
 <g opacity="0.4">
 <path d="M9 5H16" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-<path d="M12.5 5V18C12.5 19.1 13.4 20 14.5 20H16" fill="white"></path>
+<path d="M12.5 5V18C12.5 19.1 13.4 20 14.5 20H16" fill="currentColor"></path>
 <path d="M12.5 5V18C12.5 19.1 13.4 20 14.5 20H16" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
 <path d="M12.5 12.5H16" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
 </g>
