@@ -6,7 +6,7 @@ export const getUrl = (name: iconsaxNames, category: iconsaxCategories): string 
 };
 
 export const getNamedUrl = (iconName: string, iconCategory: string): string =>
-  `https://cdn.jsdelivr.net/gh/MM25Zamanian/mmzmk@latest/assets/iconsax-svg/${iconCategory}/${iconName}.svg`;
+  `https://cdn.jsdelivr.net/gh/MM25Zamanian/mmzmk@0.8.0/assets/iconsax-svg/${iconCategory}/${iconName}.svg`;
 
 export type iconsaxCategories = 'bold' | 'broken' | 'bulk' | 'linear' | 'outline' | 'twotone';
 
