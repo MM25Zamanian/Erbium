@@ -10,10 +10,10 @@ function svgLinter(html: string): string {
   root.querySelector('svg')?.removeAttribute('width');
   root.querySelector('svg')?.removeAttribute('xmlns');
   root.querySelectorAll('path').forEach((path) => {
-    if (path.getAttribute('stroke')?.includes('#', 0)) {
+    if (path.getAttribute('stroke') !== 'none' && path.getAttribute('stroke') != null) {
       path.setAttribute('stroke', 'currentColor');
     }
-    if (path.getAttribute('fill')?.includes('#', 0)) {
+    if (path.getAttribute('fill') !== 'none' && path.getAttribute('fill') != null) {
       path.setAttribute('fill', 'currentColor');
     }
   });
