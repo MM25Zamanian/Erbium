@@ -1,6 +1,6 @@
 {
-  "name": "@mmzmk/iconsax",
-  "version": "0.7.1",
+  "name": "@erbium/iconsax",
+  "version": "0.0.0",
   "description": "A small and super fast package for iconsax web components",
   "keywords": [
     "icon",
@@ -11,7 +11,7 @@
     "web-component",
     "typescript",
     "esm",
-    "mmzmk"
+    "erbium"
   ],
   "main": "iconsax.js",
   "type": "module",
@@ -26,12 +26,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MM25Zamanian/mmzmk.git",
+    "url": "git+https://github.com/MM25Zamanian/Erbium.git",
     "directory": "packages/iconsax"
   },
-  "homepage": "https://github.com/MM25Zamanian/mmzmk/tree/main/packages/iconsax#readme",
+  "homepage": "https://github.com/MM25Zamanian/Erbium/tree/main/packages/iconsax#readme",
   "bugs": {
-    "url": "https://github.com/MM25Zamanian/mmzmk/issues"
+    "url": "https://github.com/MM25Zamanian/Erbium/issues"
   },
   "dependencies": {
     "lit": "^2.2.3",

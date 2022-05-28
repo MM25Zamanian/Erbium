@@ -1,7 +1,7 @@
 {
-  "name": "mmzmk",
-  "description": "The mmzmk Library",
-  "repository": "https://github.com/MM25Zamanian/mmzmk/",
+  "name": "erbium",
+  "description": "The Erbium Library",
+  "repository": "https://github.com/MM25Zamanian/Erbium/",
   "author": "MohammadMahdi Zamanian <mm25zamanian@gmail.com> (https://mm25zamanian.ir)",
   "license": "MIT",
   "private": true,
