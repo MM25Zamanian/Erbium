@@ -1,11 +1,11 @@
-# Contributing to mmzmk projects
+# Contributing to Erbium projects
 
-We would love for you to contribute to mmzmk projects and help make it even better than it is today!
+We would love for you to contribute to Erbium projects and help make it even better than it is today!
 As a contributor, here are the guidelines we would like you to follow:
 
 ## Code of Conduct
 
-Help us keep mmzmk projects open and inclusive.
+Help us keep Erbium projects open and inclusive.
 Please read and follow our [Code of Conduct](./CODE_OF_CONDUCT.md).
 
 ## Found a Bug?

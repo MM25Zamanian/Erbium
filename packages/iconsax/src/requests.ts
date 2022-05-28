@@ -1,14 +1,14 @@
-const mmzmkIconsContents = new Map<string, string>();
+const erIconsContents = new Map<string, string>();
 const requests = new Map<string, Promise<string>>();
 
 export const getSvgContent = (url: string): Promise<string> => {
   let req = requests.get(url);
   if (!req) {
-    if (!mmzmkIconsContents.get(url)) {
+    if (!erIconsContents.get(url)) {
       req = fetch(url).then(async (response) => {
         if (response.ok) {
           const svgContent = await response.text();
-          mmzmkIconsContents.set(url, svgContent);
+          erIconsContents.set(url, svgContent);
           return svgContent;
         }
         return response.statusText;
@@ -19,7 +19,7 @@ export const getSvgContent = (url: string): Promise<string> => {
       }
     } else {
       req = new Promise((resolve) => {
-        resolve(mmzmkIconsContents.get(url) ?? '');
+        resolve(erIconsContents.get(url) ?? '');
       });
     }
   }

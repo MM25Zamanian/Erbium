@@ -1,1 +1,1 @@
-import '@mmzmk/iconsax';
+import '@erbium/iconsax';

@@ -12,7 +12,7 @@ import type {TemplateResult, PropertyValues} from 'lit';
 
 declare global {
   interface HTMLElementTagNameMap {
-    'mmzmk-iconsax': mmzmkIconSax;
+    'er-iconsax': erbiumIconSax;
   }
 }
 
@@ -20,11 +20,11 @@ declare global {
  * A small and super fast package for iconsax web components
  * @example
  * ```html
- * <mmzmk-iconsax name="home"></mmzmk-iconsax>
+ * <er-iconsax name="home"></er-iconsax>
  * ```
  */
-@customElement('mmzmk-iconsax')
-export class mmzmkIconSax extends LitElement {
+@customElement('er-iconsax')
+export class erbiumIconSax extends LitElement {
   @state() private svgContent?: string;
 
   @property({reflect: true}) name!: iconsaxNames;
@@ -45,7 +45,7 @@ export class mmzmkIconSax extends LitElement {
 
         box-sizing: content-box !important;
 
-        font-size: var(--mmzmk-iconsax-md-fs, 24px);
+        font-size: var(--er-iconsax-md-fs, 24px);
       }
 
       .icon-inner,
@@ -57,11 +57,11 @@ export class mmzmkIconSax extends LitElement {
       }
 
       :host([size='sm']) {
-        font-size: var(--mmzmk-iconsax-sm-fs, 18px) !important;
+        font-size: var(--er-iconsax-sm-fs, 18px) !important;
       }
 
       :host([size='lg']) {
-        font-size: var(--mmzmk-iconsax-lg-fs, 32px) !important;
+        font-size: var(--er-iconsax-lg-fs, 32px) !important;
       }
     `,
   ];

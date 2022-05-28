@@ -1,6 +1,6 @@
 {
-  "name": "@mmzmk/is-prime",
-  "version": "0.8.0",
+  "name": "@erbium/is-prime",
+  "version": "0.1.0",
   "description": "A small and super fast package for check prime numbers",
   "keywords": [
     "prime",
@@ -8,7 +8,7 @@
     "tiny",
     "typescript",
     "esm",
-    "mmzmk"
+    "erbium"
   ],
   "main": "is-prime.js",
   "type": "module",
@@ -23,12 +23,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MM25Zamanian/mmzmk.git",
+    "url": "git+https://github.com/MM25Zamanian/Erbium.git",
     "directory": "packages/is-prime"
   },
-  "homepage": "https://github.com/MM25Zamanian/mmzmk/tree/main/packages/is-prime#readme",
+  "homepage": "https://github.com/MM25Zamanian/Erbium/tree/main/packages/is-prime#readme",
   "bugs": {
-    "url": "https://github.com/MM25Zamanian/mmzmk/issues"
+    "url": "https://github.com/MM25Zamanian/Erbium/issues"
   },
   "dependencies": {
     "tslib": "^2.3.1"
