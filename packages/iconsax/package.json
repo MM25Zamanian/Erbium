@@ -1,6 +1,6 @@
 {
   "name": "@erbium/iconsax",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A small and super fast package for iconsax web components",
   "keywords": [
     "icon",
