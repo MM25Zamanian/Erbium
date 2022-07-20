@@ -29,7 +29,7 @@ export class erbiumIconSax extends LitElement {
 
   @property({reflect: true}) name!: iconsaxNames;
   @property({reflect: true}) category: iconsaxCategories = 'linear';
-  @property() size?: 'sm' | 'lg';
+  @property({reflect: true}) size?: 'sm' | 'lg';
 
   @query('div.icon-inner') private _iconInner!: HTMLDivElement;
 
@@ -66,7 +66,7 @@ export class erbiumIconSax extends LitElement {
     `,
   ];
 
-  protected override render(): TemplateResult {
+  override render(): TemplateResult {
     return html`<div class="icon-inner"></div> `;
   }
 
@@ -76,10 +76,9 @@ export class erbiumIconSax extends LitElement {
     if (changedProperties.has('name') || changedProperties.has('category')) {
       this.loadIcon();
     }
-  }
-
-  protected override updated(): void {
-    this._iconInner.innerHTML = this.svgContent ?? '';
+    if (changedProperties.has('svgContent')) {
+      this._iconInner.innerHTML = this.svgContent ?? '';
+    }
   }
 
   protected loadIcon(): void {
