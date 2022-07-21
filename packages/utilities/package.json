@@ -1,0 +1,36 @@
+{
+  "name": "@erbium/utilities",
+  "version": "0.1.0",
+  "description": "A small and super fast package",
+  "keywords": [
+    "util",
+    "utilities",
+    "tiny",
+    "typescript",
+    "esm",
+    "erbium"
+  ],
+  "main": "utilities.js",
+  "type": "module",
+  "types": "utilities.d.ts",
+  "author": "MohammadMahdi Zamanian <mm25zamanian@gmail.com> (https://mm25zamanian.ir)",
+  "license": "MIT",
+  "files": [
+    "**/*.{d.ts.map,d.ts,js.map,js,html,md}"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MM25Zamanian/Erbium.git",
+    "directory": "packages/utilities"
+  },
+  "homepage": "https://github.com/MM25Zamanian/Erbium/tree/main/packages/utilities#readme",
+  "bugs": {
+    "url": "https://github.com/MM25Zamanian/Erbium/issues"
+  },
+  "dependencies": {
+    "tslib": "^2.3.1"
+  }
+}
