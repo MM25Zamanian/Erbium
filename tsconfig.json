@@ -110,6 +110,9 @@
       "path": "./packages/is-prime"
     },
     {
+      "path": "./packages/utilities"
+    },
+    {
       "path": "./demo"
     }
   ]
